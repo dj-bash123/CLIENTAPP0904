@@ -1,0 +1,1943 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/select_subject_scrollview"
+    tools:context="in.co.snapqa.clientapp0903.SelectSubjectActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ToggleButton
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:textOff="Mechanical"
+            android:textOn="Mechanical"
+            android:id="@+id/sub1toggle"
+            android:textColor="#455A64"
+            android:background="#ECEFF1"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            style="@style/Base.Widget.AppCompat.Button.Colored"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/mech_subjects"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation ="horizontal"
+                android:gravity="center_vertical">
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Thermodynamics"
+                    android:textOn="Thermodynamics"
+                    android:id="@+id/select_subject_thermodynamics"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    />
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Heat Transfer"
+                    android:textOn="Heat Transfer"
+                    android:id="@+id/select_subject_heat_transfer"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    />
+
+                <ToggleButton
+                    android:id="@+id/select_subject_fluid"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/button_rounded_corners"
+                    android:padding="10dp"
+                    android:textColor="#03A9F4"
+                    android:textOff="Fluid Mechanics"
+                    android:textOn="Fluid Mechanics"
+                    android:textSize="10dp"
+                    android:textStyle="bold"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation ="horizontal"
+                android:gravity="center_vertical">
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Thermo Fluids"
+                    android:textOn="Thermo Fluids"
+                    android:id="@+id/select_subject_thermo_fluids"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Compressible Fluid"
+                    android:textOn="Compressible Fluid"
+                    android:id="@+id/select_subject_compressible_fluid"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    android:minLines="2"
+                    />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Computational Fluid Dynamics"
+                    android:textOn="Computationsl Fluid Dynamics"
+                    android:id="@+id/select_subject_computational_fluid_dynamics"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation ="horizontal">
+
+                <ToggleButton
+                    android:id="@+id/select_subject_internal_combustion"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/button_rounded_corners"
+                    android:padding="10dp"
+                    android:textColor="#03A9F4"
+                    android:textOff="Internal Combustion"
+                    android:textOn="Internal Combustion"
+                    android:textSize="10dp" />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Turbomachines"
+                    android:textOn="Turbomachines"
+                    android:id="@+id/select_subject_turbomachines"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"                    />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Statics"
+                    android:textOn="Statics"
+                    android:id="@+id/select_subject_statics"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation ="horizontal">
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Dynamics"
+                    android:textOn="Dynamics"
+                    android:id="@+id/select_subject_dynamics"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Strength Of Materials"
+                    android:textOn="Strength Of Materials"
+                    android:id="@+id/select_subject_som"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    android:maxWidth="130dp"
+                    />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Theory Of Machines"
+                    android:textOn="Theory of Machines"
+                    android:id="@+id/select_subject_theory_of_machines"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation ="horizontal">
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Machine Design"
+                    android:textOn="Machine Design"
+                    android:id="@+id/select_subject_machine_design"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Vibrations"
+                    android:textOn="Vibrations"
+                    android:id="@+id/select_subject_vibrations"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="System Dynamics"
+                    android:textOn="System Dynamics"
+                    android:id="@+id/select_subject_system_dynamics"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation ="horizontal"
+                android:gravity="center_vertical">
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Design of Machine"
+                    android:textOn="Design of Machine"
+                    android:id="@+id/select_subject_design_of_machine"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Manufacturing Process"
+                    android:textOn="Manufacturing Process"
+                    android:id="@+id/select_subject_manufacturing_process"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    android:maxWidth="120dp"
+                    />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Material Science"
+                    android:textOn="Material Science"
+                    android:id="@+id/select_subject_material_science"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation ="horizontal">
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Composite Material"
+                    android:textOn="Composite Material"
+                    android:id="@+id/select_subject_composite_material"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Measurements"
+                    android:textOn="Measurements"
+                    android:id="@+id/select_subject_measurements_mechanical"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Control System"
+                    android:textOn="Control System"
+                    android:id="@+id/select_subject_control_system_mechanical"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation ="horizontal"
+                android:gravity="center_vertical">
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Instrumentation"
+                    android:textOn="Instrumentation"
+                    android:id="@+id/select_subject_instrumentation_mechanical"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Finite Element Analysis"
+                    android:textOn="Finite Element Analysis"
+                    android:id="@+id/select_subject_finite_element_analysis"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    android:maxWidth="120dp"
+                    />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Engineering Drawing"
+                    android:textOn="Engineering Drawing"
+                    android:id="@+id/select_subject_engineering_drawing"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation ="horizontal">
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Solid Works"
+                    android:textOn="Solid Works"
+                    android:id="@+id/select_subject_solid_works"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Ansys"
+                    android:textOn="Ansys"
+                    android:id="@+id/select_subject_ansys"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Autocad"
+                    android:textOn="Autocad"
+                    android:id="@+id/select_subject_autocad"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Matlab"
+                    android:textOn="Matlab"
+                    android:id="@+id/select_subject_matlab"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Robotics"
+                    android:textOn="Robotics"
+                    android:id="@+id/select_subject_robotics"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#c0c0c0"
+            />
+
+        <ToggleButton
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:textOff="Civil"
+            android:textOn="Civil"
+            android:id="@+id/civil_subject_toggle"
+            android:textColor="#455A64"
+            android:background="#ECEFF1"
+            android:textSize="16dp"
+            style="@style/Base.Widget.AppCompat.Button.Colored"/>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/civil_subjects">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation ="horizontal">
+
+                    <ToggleButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textOff="Statics"
+                        android:textOn="Statics"
+                        android:id="@+id/select_subject_statics_civil"
+                        android:background="@drawable/button_rounded_corners"
+                        android:textColor="#03A9F4"
+                        android:layout_margin="8dp"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:textSize="10dp"
+                        android:padding="10dp"
+                        />
+
+                    <ToggleButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textOff="Dynamics"
+                        android:textOn="Dynamics"
+                        android:id="@+id/select_subject_dynamics_civil"
+                        android:background="@drawable/button_rounded_corners"
+                        android:textColor="#03A9F4"
+                        android:layout_margin="8dp"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:textSize="10dp"
+                        android:padding="10dp"
+                        />
+
+                    <ToggleButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textOff="Strength of Material"
+                        android:textOn="Strength of Material"
+                        android:id="@+id/select_subject_strength_of_material_civil"
+                        android:background="@drawable/button_rounded_corners"
+                        android:textColor="#03A9F4"
+                        android:layout_margin="8dp"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:textSize="10dp"
+                        android:padding="10dp"
+                        />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation ="horizontal">
+
+                    <ToggleButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textOff="Structural Analysis"
+                        android:textOn="Structural Analysis"
+                        android:id="@+id/select_subject_structural_analysis"
+                        android:background="@drawable/button_rounded_corners"
+                        android:textColor="#03A9F4"
+                        android:layout_margin="8dp"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:textSize="10dp"
+                        android:padding="10dp"
+                        />
+
+                    <ToggleButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textOff="Environmental Engineering"
+                        android:textOn="Environmental Engineering"
+                        android:id="@+id/select_subject_environmental_engineering"
+                        android:background="@drawable/button_rounded_corners"
+                        android:textColor="#03A9F4"
+                        android:layout_margin="8dp"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:textSize="10dp"
+                        android:padding="10dp"
+                        />
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation ="horizontal">
+
+                    <ToggleButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textOff="Hydraulics"
+                        android:textOn="Hydraulics"
+                        android:id="@+id/select_subject_hydraulics"
+                        android:background="@drawable/button_rounded_corners"
+                        android:textColor="#03A9F4"
+                        android:layout_margin="8dp"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:textSize="10dp"
+                        android:padding="10dp"
+                        />
+
+                    <ToggleButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textOff="Soil Mechanics"
+                        android:textOn="Soil Mechanics"
+                        android:id="@+id/select_subject_soil_mechanics"
+                        android:background="@drawable/button_rounded_corners"
+                        android:textColor="#03A9F4"
+                        android:layout_margin="8dp"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:textSize="10dp"
+                        android:padding="10dp"
+                        />
+
+                    <ToggleButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textOff="Surveying"
+                        android:textOn="Surveying"
+                        android:id="@+id/select_subject_surveying"
+                        android:background="@drawable/button_rounded_corners"
+                        android:textColor="#03A9F4"
+                        android:layout_margin="8dp"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:textSize="10dp"
+                        android:padding="10dp"
+                        />
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ToggleButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textOff="Fluid Mechanics"
+                        android:textOn="Fluid Mechanics"
+                        android:id="@+id/select_subject_fluid_mechanics_civil"
+                        android:background="@drawable/button_rounded_corners"
+                        android:textColor="#03A9F4"
+                        android:layout_margin="8dp"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:textSize="10dp"
+                        android:padding="10dp"
+                        />
+
+                    <ToggleButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textOff="Engineering Drawing"
+                        android:textOn="Engineering Drawing"
+                        android:id="@+id/select_subject_engineering_drawing_civil"
+                        android:background="@drawable/button_rounded_corners"
+                        android:textColor="#03A9F4"
+                        android:layout_margin="8dp"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:textSize="10dp"
+                        android:padding="10dp"
+                        />
+
+                    <ToggleButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textOff="Solid Works"
+                        android:textOn="Solid Works"
+                        android:id="@+id/select_subject_solid_works_civil"
+                        android:background="@drawable/button_rounded_corners"
+                        android:textColor="#03A9F4"
+                        android:layout_margin="8dp"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:textSize="10dp"
+                        android:padding="10dp"
+                        />
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ToggleButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textOff="Transportation Engineering"
+                        android:textOn="Transportation Engineering"
+                        android:id="@+id/select_subject_transportation_engineering"
+                        android:background="@drawable/button_rounded_corners"
+                        android:textColor="#03A9F4"
+                        android:layout_margin="8dp"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:textSize="10dp"
+                        android:padding="10dp"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#c0c0c0"
+            />
+
+        <ToggleButton
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:textOff="Electrical and Electronics"
+            android:textOn="Electrical and Electronics"
+            android:id="@+id/electrical_and_electronic_subject_toggle"
+            android:textColor="#455A64"
+            android:background="#ECEFF1"
+            android:textSize="16dp"
+            style="@style/Base.Widget.AppCompat.Button.Colored"/>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/electrical_and_electronic_subjects">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation ="horizontal">
+
+                    <ToggleButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textOff="Basic EC"
+                        android:textOn="Basic EC"
+                        android:id="@+id/select_subject_basic_ec"
+                        android:background="@drawable/button_rounded_corners"
+                        android:textColor="#03A9F4"
+                        android:layout_margin="8dp"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:textSize="10dp"
+                        android:padding="10dp"
+
+                        />
+                    <ToggleButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textOff="Circuits"
+                        android:textOn="Circuits"
+                        android:id="@+id/select_subject_circuits"
+                        android:background="@drawable/button_rounded_corners"
+                        android:textColor="#03A9F4"
+                        android:layout_margin="8dp"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:textSize="10dp"
+                        android:padding="10dp"
+                        />
+                    <ToggleButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textOff="Measurement"
+                        android:textOn="Measurement"
+                        android:id="@+id/select_subject_measurements_electrical"
+                        android:background="@drawable/button_rounded_corners"
+                        android:textColor="#03A9F4"
+                        android:layout_margin="8dp"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:textSize="10dp"
+                        android:padding="10dp"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation ="horizontal">
+
+                    <ToggleButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textOff="Control System"
+                        android:textOn="Control System"
+                        android:id="@+id/select_subject_control_system_electrical"
+                        android:background="@drawable/button_rounded_corners"
+                        android:textColor="#03A9F4"
+                        android:layout_margin="8dp"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:textSize="10dp"
+                        android:padding="10dp"
+                        />
+
+                    <ToggleButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textOff="Embedded System"
+                        android:textOn="Embedded System"
+                        android:id="@+id/select_subject_embedded_system"
+                        android:background="@drawable/button_rounded_corners"
+                        android:textColor="#03A9F4"
+                        android:layout_margin="8dp"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:textSize="10dp"
+                        android:padding="10dp"
+                        />
+
+                    <ToggleButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textOff="Electrostatics"
+                        android:textOn="Electrostatics"
+                        android:id="@+id/select_subject_electrostatics"
+                        android:background="@drawable/button_rounded_corners"
+                        android:textColor="#03A9F4"
+                        android:layout_margin="8dp"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:textSize="10dp"
+                        android:padding="10dp"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ToggleButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textOff="Power System"
+                        android:textOn="Power System"
+                        android:id="@+id/select_subject_power_system"
+                        android:background="@drawable/button_rounded_corners"
+                        android:textColor="#03A9F4"
+                        android:layout_margin="8dp"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:textSize="10dp"
+                        android:padding="10dp"
+                        />
+
+                    <ToggleButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textOff="Electrical Engineering"
+                        android:textOn="Electrical Engineering"
+                        android:id="@+id/select_subject_electrical_engineering"
+                        android:background="@drawable/button_rounded_corners"
+                        android:textColor="#03A9F4"
+                        android:layout_margin="8dp"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:textSize="10dp"
+                        android:padding="10dp"
+                        />
+
+                    <ToggleButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textOff="Robotics"
+                        android:textOn="Robotics"
+                        android:id="@+id/select_subject_robotics_electrical"
+                        android:background="@drawable/button_rounded_corners"
+                        android:textColor="#03A9F4"
+                        android:layout_margin="8dp"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:textSize="10dp"
+                        android:padding="10dp"
+                        />
+
+                </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Matlab"
+                    android:textOn="Matlab"
+                    android:id="@+id/select_subject_matlab_electrical"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#c0c0c0"
+            />
+
+        <ToggleButton
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:textOff="Mathematics"
+            android:textOn="Mathematics"
+            android:id="@+id/mathematics_subject_toggle"
+            android:textColor="#455A64"
+            android:background="#ECEFF1"
+            android:textSize="16dp"
+            style="@style/Base.Widget.AppCompat.Button.Colored"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/math_subjects">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation ="horizontal">
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Linear Algebra"
+                    android:textOn="Linear Algebra"
+                    android:id="@+id/select_subject_linear_algebra"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Precalculus"
+                    android:textOn="Precalculus"
+                    android:id="@+id/select_subject_precalculus"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Calculus 1"
+                    android:textOn="Calculus 1"
+                    android:id="@+id/select_subject_calculus1"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation ="horizontal">
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Calculus 2"
+                    android:textOn="Calculus 2"
+                    android:id="@+id/select_subject_calculus2"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Calculus 3"
+                    android:textOn="Calculus 3"
+                    android:id="@+id/select_subject_calculus3"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Differential Equations"
+                    android:textOn="Differential Equations"
+                    android:id="@+id/select_subject_differential_equations"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation ="horizontal">
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Numerical Methods"
+                    android:textOn="Numerical Methods"
+                    android:id="@+id/select_subject_numerical_method"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Sequence and Series"
+                    android:textOn="Sequence and Series"
+                    android:id="@+id/select_subject_sequence_and_series"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Vectors"
+                    android:textOn="Vectors"
+                    android:id="@+id/select_subject_vectors"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation ="horizontal">
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Probability"
+                    android:textOn="Probability"
+                    android:id="@+id/select_subject_probability"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Statistics"
+                    android:textOn="Statistics"
+                    android:id="@+id/select_subject_statistics"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="VBA"
+                    android:textOn="VBA"
+                    android:id="@+id/select_subject_vba"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation ="horizontal">
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Complex Maths"
+                    android:textOn="Complex Maths"
+                    android:id="@+id/select_subject_complex_maths"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#c0c0c0"
+            />
+
+        <ToggleButton
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:textOff="Physics"
+            android:textOn="Physics"
+            android:id="@+id/physics_subject_toggle"
+            android:textColor="#455A64"
+            android:background="#ECEFF1"
+            android:textSize="16dp"
+            style="@style/Base.Widget.AppCompat.Button.Colored"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/physics_subjects">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation ="horizontal">
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Mechanics"
+                    android:textOn="Mechanics"
+                    android:id="@+id/select_subject_mechanics_physics"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Physics"
+                    android:textOn="Physics"
+                    android:id="@+id/select_subject_physics"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Electrostatics"
+                    android:textOn="Electrostatics"
+                    android:id="@+id/select_subject_electrostatics_physics"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation ="horizontal">
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Sound and Waves"
+                    android:textOn="Sound and Waves"
+                    android:id="@+id/select_subject_sound_and_waves"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Optics"
+                    android:textOn="Optics"
+                    android:id="@+id/select_subject_optics"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Modern Physics"
+                    android:textOn="Modern Physics"
+                    android:id="@+id/select_subject_modern_phisics"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation ="horizontal">
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Gravitation"
+                    android:textOn="Gravitation"
+                    android:id="@+id/select_subject_gravitation"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+            </LinearLayout>
+            </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#c0c0c0"
+            />
+
+        <ToggleButton
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:textOff="Chemistry"
+            android:textOn="Chemistry"
+            android:id="@+id/chemistry_subject_toggle"
+            android:textColor="#455A64"
+            android:background="#ECEFF1"
+            android:textSize="16dp"
+            style="@style/Base.Widget.AppCompat.Button.Colored"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/chemistry_subjects">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation ="horizontal">
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Inorganic"
+                    android:textOn="Inorganic"
+                    android:id="@+id/select_subject_inorganic"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Organic"
+                    android:textOn="Organic"
+                    android:id="@+id/select_subject_organic"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Physical"
+                    android:textOn="Physical"
+                    android:id="@+id/select_subject_physical"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation ="horizontal">
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="General Chemistry"
+                    android:textOn="General Chemistry"
+                    android:id="@+id/select_subject_general_chemistry"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#c0c0c0"
+            />
+
+        <ToggleButton
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:textOff="Software Works"
+            android:textOn="Software Works"
+            android:id="@+id/software_works_subject_toggle"
+            android:textColor="#455A64"
+            android:background="#ECEFF1"
+            android:textSize="16dp"
+            style="@style/Base.Widget.AppCompat.Button.Colored"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/software_works_subjects">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation ="horizontal">
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Matlab"
+                    android:textOn="Matlab"
+                    android:id="@+id/select_subject_matlab_software"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="C/C++"
+                    android:textOn="C/C++"
+                    android:id="@+id/select_subject_cpp"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Java"
+                    android:textOn="Java"
+                    android:id="@+id/select_subject_java"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation ="horizontal">
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Autocad"
+                    android:textOn="Autocad"
+                    android:id="@+id/select_subject_autocad_software"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Ansys"
+                    android:textOn="Ansys"
+                    android:id="@+id/select_subject_ansys_software"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Solid Works"
+                    android:textOn="Solid Works"
+                    android:id="@+id/select_subject_solid_works_software"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation ="horizontal">
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="VBA"
+                    android:textOn="VBA"
+                    android:id="@+id/select_subject_vba_software"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Visual Studio"
+                    android:textOn="Visual Studio"
+                    android:id="@+id/select_subject_visual_studio"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="App/Web Development"
+                    android:textOn="App/Web Development"
+                    android:id="@+id/select_subject_development"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#c0c0c0"
+            />
+
+        <ToggleButton
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:textOff="Economics"
+            android:textOn="Economics"
+            android:id="@+id/economics_subject_toggle"
+            android:textColor="#455A64"
+            android:background="#ECEFF1"
+            android:textSize="16dp"
+            style="@style/Base.Widget.AppCompat.Button.Colored"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/meconomics_subjects">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation ="horizontal">
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Finance"
+                    android:textOn="Finance"
+                    android:id="@+id/select_subject_finance"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Accountancy"
+                    android:textOn="Accountancy"
+                    android:id="@+id/select_subject_accountancy"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Engineering Economics"
+                    android:textOn="Engineering Economics"
+                    android:id="@+id/select_subject_engineering_economics"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation ="horizontal">
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Probability"
+                    android:textOn="Probability"
+                    android:id="@+id/select_subject_probability_economics"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Statistics"
+                    android:textOn="Statistics"
+                    android:id="@+id/select_subject_statistics_economics"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Operations Research"
+                    android:textOn="Operations Research"
+                    android:id="@+id/select_subject_operations_research"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#c0c0c0"
+            />
+
+        <ToggleButton
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:textOff="Misc."
+            android:textOn="Misc."
+            android:id="@+id/misc_subject_toggle"
+            android:textColor="#455A64"
+            android:background="#ECEFF1"
+            android:textSize="16dp"
+            style="@style/Base.Widget.AppCompat.Button.Colored"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/misc_subjects">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation ="horizontal">
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Robotics"
+                    android:textOn="Robotics"
+                    android:id="@+id/select_subject_robotics_misc"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Philosophy"
+                    android:textOn="Philosophy"
+                    android:id="@+id/select_subject_philosophy"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Humanities"
+                    android:textOn="Humanities"
+                    android:id="@+id/select_subject_humanities"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation ="horizontal">
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Essay Writing"
+                    android:textOn="Essay Writing"
+                    android:id="@+id/select_subject_essay_writing"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Alternative Energy"
+                    android:textOn="Alternative Energy"
+                    android:id="@+id/select_subject_alternative_energy"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Powder Metallurgy"
+                    android:textOn="Powder Metallutgy"
+                    android:id="@+id/select_subject_powder_metallurgy"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation ="horizontal">
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Geology"
+                    android:textOn="Geology"
+                    android:id="@+id/select_subject_geology"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Geophysics"
+                    android:textOn="Geophysics"
+                    android:id="@+id/select_subject_geophysics"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Operations Research"
+                    android:textOn="Operations Research"
+                    android:id="@+id/select_subject_operations_research_misc"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation ="horizontal">
+
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOff="Engineering Cost Analysis"
+                    android:textOn="Engineering Cost Analysis"
+                    android:id="@+id/select_subject_engineering_cost_analysis"
+                    android:background="@drawable/button_rounded_corners"
+                    android:textColor="#03A9F4"
+                    android:layout_margin="8dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textSize="10dp"
+                    android:padding="10dp"
+                    android:elevation="2dp"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:textSize="16dp"
+            android:text="Submit"
+            android:id="@+id/confirm_subject"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:background="@color/colorPrimary"
+            android:hapticFeedbackEnabled="true"
+            android:textColor="#FFFFFF">
+
+        </Button>
+
+    </LinearLayout>
+</ScrollView>

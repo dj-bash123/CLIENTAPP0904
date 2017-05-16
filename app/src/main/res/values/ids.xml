@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="computer" type="id">Comp</item>
+    <item name="btn_play_again" type="id">bta</item>
+</resources>

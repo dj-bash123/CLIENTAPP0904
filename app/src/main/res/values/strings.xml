@@ -1,0 +1,31 @@
+<resources>
+
+
+    <string name="app_name">ClientApp0903</string>
+    <string name="api_url">http://ec2-52-54-173-224.compute-1.amazonaws.com:7200/api/snapQA/</string>
+    <string name="title_activity_main">SnapQA</string>
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+    <string name="slide_1_title">Daily Workout</string>
+    <string name="slide_1_desc">Set your daily workout routine by the help of trainer</string>
+    <string name="slide_2_title">Meditation Techniques </string>
+    <string name="slide_2_desc">Learn about the different meditation techniques and practice them</string>
+    <string name="slide_3_title">Diet Chart</string>
+    <string name="slide_3_desc">Make your diet chart by the help of health experts</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Log Out</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_tutor_profile">TutorProfile</string>
+    <string name="title">Heading</string>
+    <string name="description">Description</string>
+
+
+</resources>

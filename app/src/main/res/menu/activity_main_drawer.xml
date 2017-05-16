@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/ic_menu_live">
+        <item
+            android:title="Unaccepted Deals" >
+            <menu>
+                <item
+                    android:id="@+id/ic_menu_new_deals"
+                    android:title="New Deals"
+                    android:icon="@drawable/favoritesbutton"/>
+
+
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/ic_menu_accepted">
+        <item
+            android:title="Accepted Deals" >
+            <menu>
+                <item
+                    android:id="@+id/ic_menu_home_work"
+                    android:title="Deadline Sessions"
+                    android:icon="@drawable/hourglass"/>
+
+                <item
+                    android:id="@+id/ic_menu_live_session"
+                    android:title="Live Sessions"
+                    android:icon="@drawable/hourglass"/>
+
+            </menu>
+        </item>
+    </group>
+</menu>
